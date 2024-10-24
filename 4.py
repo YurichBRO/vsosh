@@ -16,7 +16,8 @@ def solve(nums):
 testcases = [
     [1, 2, 3, 4, 5],
     [4, 5, 1, 2, 3],
-    [2, 3, 4, 5, 1]
+    [2, 3, 4, 5, 1],
+    [4, 7, 110, 1, 3]
 ]
 for i in testcases:
     print(solve(i), i)
