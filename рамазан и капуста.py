@@ -74,9 +74,7 @@ for i in range(len(regions)):
 
 for i in max_pairs:
     max_pairs[i] = max(max_pairs[i][0])
-            
 
-from pprint import pprint
 print(len(pairs.keys()))
 for i in pairs:
     print(*i, pairs[i], max_pairs[i])
